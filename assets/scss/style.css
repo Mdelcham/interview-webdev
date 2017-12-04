@@ -1,0 +1,28 @@
+/*
+Error: Invalid CSS after "@import "base"": expected selector or at-rule, was "@import "layout""
+        on line 2 of /home/user/Documents/interview-webdev/assets/scss/style.scss
+
+1: @import "base"
+2: @import "layout"
+3: @import "reset"
+
+Backtrace:
+/home/user/Documents/interview-webdev/assets/scss/style.scss:2
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \"base\"\": expected selector or at-rule, was \"@import \"layout\"\"\A         on line 2 of /home/user/Documents/interview-webdev/assets/scss/style.scss\A \A 1: @import \"base\"\A 2: @import \"layout\"\A 3: @import \"reset\""; }

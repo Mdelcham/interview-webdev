@@ -1,53 +1,3 @@
-@media screen and (max-width: 1024px){
-	.accueil{
-		width: auto;
-	}
-	    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-    
-    nav ul
-    {
-        flex-direction: column;
-    }
-
-    nav li
-    {
-        padding-left: 4px;
-    }
-    
-    nav a
-    {
-        font-size: 1.1em;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
 	font-family:'Montserrat', sans-serif;
 	margin: 0;
@@ -61,37 +11,34 @@ body {
 
 
 nav {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 15px;
-  font-weight: bold;
-  background: white;
-  border-bottom: 1px solid white;
-  zoom: 1;
-  margin-bottom: 100px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  	list-style-type: none;
+  	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 15px;
+	font-weight: bold;
+	background: white;
+	border-bottom: 1px solid white;
+	zoom: 1;
+	margin: 10px 10px 100px 10px;
 }
 
-.menu li {
-  display: block;
-  float: left;
-  margin: 0 1em;
+nav li {
+	display: block;
+	float: left;
+	margin: 0 1em;
 }
-.menu li a {
-  display: block;
-  float: left;
-  color: #E79367;
-  text-decoration: none;
-  font-weight: bold;
-  border-bottom: 3px solid transparent;
+nav li a {
+	display: block;
+	float: left;
+	color: #E79367;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 3px solid transparent;
 }
-.menu li a:hover {
-  color: #E79367;
-  border-bottom: 2px solid #E79367;
+nav li a:hover {
+	color: #E79367;
+	border-bottom: 2px solid #E79367;
 }
 
 
@@ -115,18 +62,14 @@ nav {
 	max-width: 1000px;
 	margin: 0 auto;
 	box-shadow: 0px 2px 5px #CCCCCC;	
-	text-align: justify;
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;	
 	opacity: 0.8;
 	align-items: center;
 	margin-bottom: 50px;
-}
+	color: #231934;
 
-
-footer {
-	padding-top: 120px;
 }
 
 .accueil {
@@ -134,15 +77,15 @@ footer {
 	max-width: 1000px;
 	margin: 0 auto;
 	box-shadow: 0px 2px 5px #CCCCCC;	
-	text-align: justify;
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;	
 	color: #231934;
 	opacity: 0.8;
+	align-items: center;
 }
 
-.titre {
+h1 {
 	text-align: center;
 	color: white;
 }
@@ -150,17 +93,8 @@ footer {
 .right {
 	font-size: 10px;
 	float: left;
-	margin-left: 5px;
 	color: white;
-	margin-top: -40px;
-}
-
-.left {
-	font-size: 10px;
-	float: right;
-	margin-right: 5px;
-	color: white;
-	margin-top: -50px;
+	margin: 50px 0px 0px 5px;
 }
 
 .apro {
@@ -177,52 +111,6 @@ footer {
 	transform-origin: 50% 50%;
 	transform:rotateZ(360deg);
 	}
-.right1 {
-	margin-top: 160px;
-	font-size: 10px;
-	float: left;
-	margin-left: 5px;
-	color: white;
-}
-
-.left1{
-	margin-top: 150px;
-	font-size: 10px;
-	float: right;
-	margin-right: 5px;
-	color: white;
-}
-
-.right2 {
-	margin-top: 80px;
-	font-size: 10px;
-	float: left;
-	margin-left: 5px;
-	color: white;
-}
-
-.left2 {
-	margin-top: 70px;
-	font-size: 10px;
-	float: right;
-	margin-right: 5px;
-	color: white;
-}
-.right3 {
-	margin-top: 120px;
-	font-size: 10px;
-	float: left;
-	margin-left: 5px;
-	color: white;
-}
-
-.left3 {
-	margin-top: 110px;
-	font-size: 10px;
-	float: right;
-	margin-right: 5px;
-	color: white;
-}
 
 .concl {
 	text-align: justify;
