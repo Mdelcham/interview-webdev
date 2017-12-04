@@ -55,14 +55,13 @@
 }
 
 body {
-	background-image: url(a.jpg);
+	background-image: url(../images/a.jpg);
 	color: #231934;
 }
 
 
 nav {
   list-style-type: none;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,8 +120,6 @@ nav {
 	padding: 20px;
 	border-radius: 5px;	
 	opacity: 0.8;
-	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	margin-bottom: 50px;
 }
@@ -251,16 +248,13 @@ footer {
 
 h3{
 	font-size: 18px;
+	line-height: 1em;
 }
 
 h2{
 	color: #487360;
 }
 
-.par h2{
-	align-self: flex-end;
-	padding-bottom: 10px;
-}
 
 .par7 img{
 	align-self: flex-start;
@@ -296,4 +290,12 @@ h2{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+}
+
+.par h2{
+	line-height: 1.5em;
+}
+
+.par h3{
+	line-height: 1.5em;
 }
